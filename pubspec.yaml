@@ -1,5 +1,5 @@
 name: yaml2json
-version: 1.0.0
+version: 1.0.1
 author: Kenneth Endfinger <kaendfinger@gmail.com>
 environment:
   sdk: '>=1.5.0'
