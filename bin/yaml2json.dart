@@ -11,7 +11,7 @@ main(List<String> args) {
   parser.addFlag("pretty", abbr: "p", help: "Pretty Output", defaultsTo: true);
   parser.addFlag("help", abbr: "h", help: "Prints this Help Message", defaultsTo: false, negatable: false);
   var opts = parser.parse(args);
-  if (opts["help"]) {
+  if (opts["help"] || args.length == 0) {
     print("Usage: yaml2json [options]");
     print(parser.getUsage());
     exit(0);
