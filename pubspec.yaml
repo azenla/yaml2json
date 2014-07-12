@@ -1,0 +1,7 @@
+name: yaml2json
+version: 1.0.0
+environment:
+  sdk: '>=1.5.0'
+dependencies:
+  args: '>=0.11.0+1 <0.12.0'
+  yaml: 1.1.1
